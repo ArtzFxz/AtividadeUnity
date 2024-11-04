@@ -3179,6 +3179,7 @@ GameObject:
   - component: {fileID: 1015125495}
   - component: {fileID: 1015125496}
   - component: {fileID: 1015125497}
+  - component: {fileID: 1015125498}
   m_Layer: 0
   m_Name: Idle_0 (1)
   m_TagString: Untagged
@@ -3331,8 +3332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e5aa18cdd9797a4e857732d76a474e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaHeroi: 100
-  vidaVilao: 300
+  estadoVilao: 1
 --- !u!114 &1015125495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3373,6 +3373,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerVivo: 0
   powerUp: 0
+--- !u!114 &1015125498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015125489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391f9408169b6d24896353a417b56a09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pocaoCura: 0
 --- !u!1 &1189941650
 GameObject:
   m_ObjectHideFlags: 0
