@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class Exercicio02 : MonoBehaviour
 {
-    [SerializeField] bool powerUp;
+    [SerializeField] bool powerUp;//true
+    // ! --> Inverte o valor
     
     void Start()
     {
