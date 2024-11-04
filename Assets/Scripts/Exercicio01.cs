@@ -17,7 +17,8 @@ public class Exercicio01 : MonoBehaviour
         }
 
         //condição ? valor a ser chamado caso verdadeiro : caso falso
-        resultado = (vidaHeroi > 0) ? "Personagem Vivo!" : "Game Over! ;-;";
+
+        //resultado = (vidaHeroi > 0) ? "Personagem Vivo!" : "Game Over! ;-;";
     }
 
     // Update is called once per frame

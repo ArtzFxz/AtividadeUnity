@@ -2,10 +2,20 @@ using UnityEngine;
 
 public class Exercicio02 : MonoBehaviour
 {
-    string resultado;
+    [SerializeField] bool powerUp;
+    
     void Start()
     {
-        resultado = vidaHeroi < vidaVilao ? "Vida Heroi Menor" : "Vida Heroi Maior";
+        //if (powerUp == true)
+        //{
+        //    print("Power-up Coletado!");
+        //}
+        //else
+        //{
+        //    print("Nenhum Power-up encontrado");
+        //}
+
+        print((powerUp == true) ? "Power-up Coletado!" : "Nenhum Power-up encontrado");
     }
 
     // Update is called once per frame
