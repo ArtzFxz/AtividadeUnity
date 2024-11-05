@@ -3184,6 +3184,7 @@ GameObject:
   - component: {fileID: 1015125500}
   - component: {fileID: 1015125501}
   - component: {fileID: 1015125502}
+  - component: {fileID: 1015125503}
   m_Layer: 0
   m_Name: Idle_0 (1)
   m_TagString: Untagged
@@ -3436,7 +3437,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015125489}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0475836d4c36d4f48bc334217b79fa5c, type: 3}
   m_Name: 
@@ -3444,6 +3445,20 @@ MonoBehaviour:
   hora: 0
   dia: 0
   segundos: 0
+--- !u!114 &1015125503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015125489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce045234a30027c4b96627a59bb33203, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeA: 3
+  timeB: 1
 --- !u!1 &1189941650
 GameObject:
   m_ObjectHideFlags: 0
